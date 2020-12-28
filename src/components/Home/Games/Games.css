@@ -1,0 +1,10 @@
+.games {
+  max-width: 85%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  grid-row-gap: 75px;
+}

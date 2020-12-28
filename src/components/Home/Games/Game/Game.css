@@ -1,0 +1,138 @@
+.game {
+  max-width: 265px;
+  min-width: 265px;
+  height: 400px;
+  padding: 10px;
+  transition: all 0.2s ease-in;
+}
+
+.game:hover {
+  transform: scale(1.05);
+}
+
+.game__icon {
+  width: 58px;
+  border-radius: 999px;
+  background: linear-gradient(
+    to right,
+    #f06a2d,
+    #f4bd51,
+    #e4233e,
+    #6129cd,
+    #952296
+  );
+  border: 2px solid #fff;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-bottom: -13.5px;
+}
+
+.game__icon > img {
+  margin-top: 4px;
+  margin-left: 4px;
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+  border-radius: 999px;
+}
+
+.game__companyName {
+  width: 85%;
+  margin: auto;
+  margin-left: 6.5%;
+  background: rgb(41, 161, 216);
+  border: 2px solid #fff;
+  border-radius: 0 0 9px 9px;
+  padding: 3px 0;
+  text-align: center;
+  display: inline-block;
+  box-shadow: 0 5px 2px 0 rgba(0, 0, 0, 0.3);
+  font-size: 1.1em;
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #fff;
+  position: relative;
+  cursor: default;
+}
+
+.game__companyName > span {
+  background: rgb(41, 161, 216);
+  z-index: -1;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: -8px;
+  top: 0.5px;
+  transform: skew(28deg);
+}
+
+.game__card {
+  margin-top: -20px;
+  text-align: center;
+  height: 100%;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  background-size: 310% !important;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: inset 0px 120px 70px -30px rgba(0, 0, 0, 0.6),
+    inset 0px -170px 70px -50px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+.game__card > h2 {
+  padding-top: 25px;
+  flex: 1;
+  line-height: 1em;
+  font-size: 1.7rem;
+  min-height: 37px;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+}
+
+.game__cardInfo {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game__cardInfo > h4 {
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  color: #fbb03b;
+  font-size: 1.4rem;
+}
+
+.game__cardInfo > p {
+  margin-top: -3px;
+  margin-bottom: 3px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.game__cardInfo > button {
+  background: rgb(41, 161, 216);
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  border: none;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  outline: none;
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  padding: 6px 20px 8px;
+}
+
+.game__cardInfo > span {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}

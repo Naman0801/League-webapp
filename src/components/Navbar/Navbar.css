@@ -1,0 +1,58 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #323031;
+  height: 90px;
+  padding: 0 5rem;
+}
+
+.navbar__left,
+.navbar__right {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.navbar__left > img {
+  max-width: 175px;
+  margin-right: 1.7rem;
+  object-fit: contain;
+}
+
+.navbar__left > div {
+  display: flex;
+  margin-top: 10px;
+}
+
+.navbar__left > div > p {
+  margin-right: 1rem;
+  font-size: 15px;
+}
+
+.navbar__left > div > p:hover,
+.navbar__right > p:hover {
+  color: #ff3f5f;
+  cursor: pointer;
+}
+
+.navbar__right {
+  margin-top: 10px;
+}
+
+.navbar__right > select {
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: 1rem;
+  margin-top: 5px;
+}
+
+.navbar__right > select > option {
+  background-color: #323031;
+}
+
+.navbar__right > img {
+  margin-right: 0.5rem;
+}
